@@ -36,8 +36,12 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 3. Run the `Navigation.ipynb file`. 
 
-### Model
+### Learning Algorithm
+
 The model contains three hidden linear layers of 256, 128 and 64 nodes respectively, each followed by a ReLU activation. The last fully connected layer maps to the four actions. 
 
 ### Training
 The agent generally learns to solve the problem in under 500 episodes.
+
+### Ideas for Future Work
+Currently working on implementing Prioritized Experience Replay.
