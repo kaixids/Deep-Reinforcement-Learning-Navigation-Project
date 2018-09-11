@@ -44,4 +44,4 @@ The learning agent interacts with the environment - take observations as input v
 The agent generally learns to solve the problem in under 500 episodes.
 
 ### Ideas for Future Work
-Currently working on implementing Prioritized Experience Replay. Currently training takes less than 15 minutes on my machine. I have tried training for 2000+ episodes and the performance seems to max around 15.  
+Working on implementing Prioritized Experience Replay and possibly Rainbow DQN down the road. Currently training takes less than 15 minutes on my machine. I have tried training for 2000+ episodes and the performance seems to max around 15. I'd be curious to see how much the performance can be improved.
