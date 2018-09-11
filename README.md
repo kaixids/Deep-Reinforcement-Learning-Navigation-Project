@@ -38,10 +38,10 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### Learning Algorithm
 
-The model contains three hidden linear layers of 256, 128 and 64 nodes respectively, each followed by a ReLU activation. The last fully connected layer maps to the four actions. 
+The learning agent interacts with the environment - take observations as input values and maps them to actions. The model contains three hidden linear layers of 256, 128 and 64 nodes respectively, each followed by a ReLU activation. The last fully connected layer maps to the four actions. The agent discounts rewards with a 0.99 gamma and has a learning rate of 0.0001. The agent runs a soft update every 4 episode with a TAU of 0.001. 
 
 ### Training
 The agent generally learns to solve the problem in under 500 episodes.
 
 ### Ideas for Future Work
-Currently working on implementing Prioritized Experience Replay.
+Currently working on implementing Prioritized Experience Replay. Currently training takes less than 15 minutes on my machine. I have tried training for 2000+ episodes and the performance seems to max around 15.  
